@@ -3,4 +3,11 @@
     width: 5cm;
 }
 
-.w3-button w3-light-grey w3-padding-large w3-margin-top w3-margin-bottom 
+.nav-link {
+    width: 70px;
+    text-align: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
