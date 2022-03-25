@@ -36,3 +36,21 @@ body,
             justify-content: end;
             align-item: center;
         }
+
+        .social-flex {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 50px;
+            margin-right: 55px;
+            margin-left: 150px;
+        }
+
+        nav a {
+            transition: 0.5s;
+        }
+
+        nav a:hover {
+            letter-spacing: 2px;
+        }
