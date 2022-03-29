@@ -17,16 +17,22 @@
 
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
-    <!-- Sidebar/menu -->
-    <nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center"
-        style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
-        <h1 class="h1"><strong>CAMILLE<br>MACCAULEY's</strong></h1>
-        <a href="javascript:void(0)" onclick="w3_close()"
-            class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
-        <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a>
-        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Hello World!</a>
-        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONNECT</a>
-    </nav>
+    <div class="w3-container">
+        <div class="w3-bar w3-black">
+            <h3 class="h3"><strong>Camille MacCauley</strong></h3>
+            <a href="#" class="w3-bar-item w3-button">_welcome!_</a>
+            <a href="#" class="w3-bar-item w3-button">_highlights_</a>
+            <div class="w3-dropdown-hover">
+                <button class="w3-button">_connect_</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="#https://www.instagram.com/illbeinvr/" class="w3-bar-item w3-button">Instagram</a>
+                    <a href="#" class="w3-bar-item w3-button">Link 2</a>
+                    <a href="#" class="w3-bar-item w3-button">Link 3</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Top menu on small screens -->
     <header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
@@ -45,7 +51,7 @@
         <div class="w3-hide-large" style="margin-top:83px"></div>
 
         <!-- Photo grid -->
-        <div class="w3-row">
+        <div class="w3-animate-left">
             <div class="w3-third">
                 <img src="assets/antelopeisland.jpg" style="width:50%" onclick="onClick(this)" alt="Entomology">
                 <img src="assets/fishing.jpg" style="width:50%" onclick="onClick(this)"
